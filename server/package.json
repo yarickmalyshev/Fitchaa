@@ -1,0 +1,42 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "backend of app",
+  "main": "app.ts",
+  "type": "module",
+  "scripts": {
+    "prod:start": "npm run build && node build/app.js",
+    "dev:server": "npx nodemon",
+    "build": "npm run test && rimraf ./build && npx tsc",
+    "test": "jest --passWithNoTests"
+  },
+  "author": "CONCEPT",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/jest": "^29.2.4",
+    "@types/node": "^18.11.17",
+    "@types/uuid": "^9.0.0",
+    "dotenv": "^16.0.3",
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.7.5",
+    "uuid": "^9.0.0"
+  }
+}

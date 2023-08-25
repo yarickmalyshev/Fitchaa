@@ -1,0 +1,10 @@
+.event-component {
+  padding: 0 30px;
+}
+.event-component > * {
+  margin-bottom: 20px;
+}
+.calendar {
+  margin: 0 auto;
+  margin-bottom: 50px;
+}

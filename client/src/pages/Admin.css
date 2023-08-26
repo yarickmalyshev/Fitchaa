@@ -2,7 +2,7 @@
   font-size: 85px;
   font-weight: 600;
   color: #9BFE33;
-  margin: 100px 0 20px 0;
+  margin: 200px 0 70px 0;
   text-align: center;
 }
 .desc-display, .schedule-display {
@@ -38,7 +38,7 @@
   text-align: center;
   font-size: 48px;
   color: #9BFE33;
-  margin-bottom: 45px;
+  margin: 200px 0 45px 0;
 }
 
 
@@ -63,4 +63,21 @@
 .edit {
   display: flex;
   justify-content: flex-end;
+}
+
+.back-button {
+  width: 211px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9BFE33;
+  color: black;
+  text-align: center;
+  border-radius: 14px;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }

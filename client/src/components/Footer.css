@@ -1,6 +1,7 @@
 
 .footer {
-  padding: 150px 0 200px 0;
+  width: 100%;
+  height: 615px;
 }
 .footer .content {
   width: 100%;
@@ -11,6 +12,7 @@
   background-image: url('../assets/footer-bcg.png');
   background-position: left;
   background-repeat: no-repeat;
+  background-size: contain;
   background-size: contain;
 }
 

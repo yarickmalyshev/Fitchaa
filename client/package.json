@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@ionic/react": "^7.3.1",
+    "@mobiscroll/react": "https://npm.mobiscroll.com/@mobiscroll/react-trial/-/react-trial-5.26.2.tgz",
     "faker": "^6.6.6",
     "jquery": "^3.7.0",
     "react": "^18.2.0",

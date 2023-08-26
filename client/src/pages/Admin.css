@@ -1,0 +1,66 @@
+.tour-title {
+  font-size: 85px;
+  font-weight: 600;
+  color: #9BFE33;
+  margin: 100px 0 20px 0;
+  text-align: center;
+}
+.desc-display, .schedule-display {
+  width: 412px;
+  height: 409px;
+  border: 1px solid #9BFE33;
+  padding: 13px 24px 32px 24px;
+  border-radius: 41px;
+  color: white;
+}
+.tour-interface {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+.desc-display h5, .schedule-display h5 {
+  font-size: 24px;
+  margin-bottom: 28px;
+  text-align: center;
+}
+.desc-display p, .schedule-display p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.schedule-list > p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.statics-title {
+  text-align: center;
+  font-size: 48px;
+  color: #9BFE33;
+  margin-bottom: 45px;
+}
+
+
+.chart-box {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 200px;
+  padding-bottom: 100px;
+}
+.pie-chart {
+  width: 100%;
+  max-width: 400px;
+}
+.line-chart {
+  width: 100%;
+  max-width: 400px;
+}
+
+.edit {
+  display: flex;
+  justify-content: flex-end;
+}

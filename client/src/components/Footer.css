@@ -1,0 +1,42 @@
+
+.footer {
+  padding: 150px 0 200px 0;
+}
+.footer .content {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url('../assets/footer-bcg.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.footer__text {
+  flex: 0 0 300px;
+}
+.footer__logo {
+  font-family: "Ubuntu Mono";
+  background-color: #2AA5A0;
+  background-image: linear-gradient(#9BFE33, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  line-height: normal;
+  margin-bottom: 64px;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: center;
+}
+.footer__item {
+  color: #9BFE33;
+  font-size: 27px;
+}

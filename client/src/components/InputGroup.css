@@ -1,0 +1,49 @@
+.input-group-component {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.input-group-component label {
+  display: block;
+}
+.input-tag {
+  max-width: 100px;
+  display: block;
+  background-color: #9BFE33;
+  height: 32px;
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 16px;
+  color: black;
+}
+.input-tag .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+.input-button {
+  width: 211px;
+  height: 44px;
+  background-color: #9BFE33;
+  color: black;
+  text-align: center;
+  border-radius: 14px;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+.tag-line {
+  width: 350px;
+  display: flex;
+  overflow: hidden;
+}
